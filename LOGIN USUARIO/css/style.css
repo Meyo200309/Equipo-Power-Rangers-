@@ -1,0 +1,86 @@
+/* Fondo completo centrado */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #001a66; /* Azul oscuro */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Tarjeta del login */
+.card {
+    background-color: #929292;
+    width: 500px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+}
+
+/* Título LOGIN */
+.card h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+/* Imagen de usuario */
+.user-img {
+    width: 110px;
+    margin-bottom: 15px;
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+}
+
+/* Inputs redondos */
+input {
+    width: 70%;
+    padding: 10px;
+    margin-top: 6px;
+    border: none;
+    border-radius: 20px;
+    background-color: #002080;
+    text-align: center;
+    color: white;
+}
+
+input::placeholder {
+    color: #d4d4d4;
+    text-align: center;
+}
+
+/* Botones */
+button, .btn-link {
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: #001a66;
+    color: white;
+    cursor: pointer;
+    margin: 8px;
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Hover */
+button:hover, .btn-link:hover {
+    background-color: #002699;
+}
+
+/* Botones a los lados */
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
